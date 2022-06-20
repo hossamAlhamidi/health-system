@@ -18,7 +18,7 @@
         <form id="multi-step-form" class="select-blue mt-6 ps-lg-5" >
             <div class="form-active form-disabled form-step">
             <div class="form-group pb-2 ps-sm-5 px-md-0">
-                <label for="title" class="purple-sm-taj label-right mb-2 px-2 light-grey-color">الاسم 123الأول
+                <label for="title" class="purple-sm-taj label-right mb-2 px-2 light-grey-color">الاسم الأول
                     </label>
                 <input  id="title" type="text" name="title" class="md-blue-input-text pe-4 form-control fieldset-input-thin text-right-important grey-placeholder pr-0" placeholder="أدخل اسمك الأول" />
                 <small class="error-msg me-3"></small>
