@@ -265,106 +265,140 @@
             <div class="col-lg-6 mx-1">
             <div class=" pb-2 ps-sm-5 px-md-0">
                 <h2 class="underline-small sm-heading-blue mt-4">
-                        ماهي الجوانب التي ستغطيها من خلال المادة؟
+                        نوع الطرح
                 </h2>
                 <div>
                     <div class="radio-parent form-group">
 
                         <input  id="op1" type="radio" checked name="side_cover" class=" "  />
-                        <label>الجانب النظري فقط</label>
+                        <label>برنامج (كتابة محتوى - تصميم محتوى - مراجهة محتوى)</label>
                     </div>
                     <div class="radio-parent form-group">
 
                         <input  id="op2" type="radio" name="side_cover" class=" "  />
-                        <label>الجانب العملي فقط</label>
+                        <label>مهمه</label>
                     </div>
                     <div class="radio-parent form-group">
 
                         <input  id="op3" type="radio" name="side_cover" class=" "  />
-                    <label> الجانب النظري والعملي معاً</label>
-                    </div>
-                    <div class="radio-parent">
-                    <div class="radio-parent form-group">
-
-                        <input  id="op4" type="radio" name="side_cover" class=" "  />
-                    <label> ...أخرى</label>
-                    </div>
-
-                    <input  id="op5" type="text" name="side_cover" class="md-blue-input-text pe-4 form-control fieldset-input-thin text-right-important grey-placeholder pr-0 mx-1" placeholder="مثل سأقوم بتغطية ٤ فصول فقط" >
+                    <label>تصميم</label>
                     </div>
                 </div>
             </div>
             <!-- second input -->
             <div class=" pb-2 ps-sm-5 px-md-0 my-5">
                 <h2 class="underline-small sm-heading-blue">
-                       إلى أي الأقسام ستقدم مادتك؟
+                       المؤهلات
                 </h2>
                 <div>
-                    <div class="radio-parent form-group">
-
-                        <input  id="op1" checked type="radio" name="sections" class=" "  />
-                        <label>قسم الطلاب</label>
+                    <div class="form-group pb-2 ps-sm-5 px-md-0" >
+                        <label for="universiy"
+                            class="purple-sm-taj label-right mb-2 px-3 light-grey-color">
+                            التخصص في مجال:
+                        </label>
+                        <select id="universiy"
+                            class="form-select form-control fieldset-input-thin">
+                            <option value="" disabled selected hidden>
+                            </option>
+                            <option class="md-blue-input-text" value="second">
+                                العيون
+                            </option>
+                            <option class="md-blue-input-text" value="third">
+                                عظام
+                            </option>
+                            <option class="md-blue-input-text" value="third">
+                                باطنية
+                            </option>
+                        </select>
+                        <small class="error-msg me-3"></small>
                     </div>
-                    <div class="radio-parent form-group">
-
-                        <input  id="op2" type="radio" name="sections" class=" "  />
-                        <label>قسم الطالبات</label>
+                    <div class="form-group pb-2 ps-sm-5 px-md-0">
+                        <label for="title" class="purple-sm-taj label-right mb-2 px-2 light-grey-color">المؤهل:
+                        </label>
+                        <input  id="title" type="text" name="title" class="md-blue-input-text pe-4 form-control fieldset-input-thin text-right-important grey-placeholder pr-0" placeholder="اسم المؤهل" />
+                            <small class="error-msg me-3"></small>
                     </div>
-                    <div class="radio-parent form-group">
-
-                        <input  id="op3" type="radio" name="sections" class=" "  />
-                    <label>قسم الطلاب والطالبات معاً</label>
+                    <div class="form-group pb-2 ps-sm-5 px-md-0">
+                        <label for="photo" class="purple-sm-taj label-right mb-2 px-2 light-grey-color">صورة المؤهل:      
+                        </label>
+                        <input  id="photo" type="file" name="photo" class="md-blue-input-text form-control fieldset-input-thin text-right-important grey-placeholder pr-0" placeholder="xxxxxxxxxx"  />
+                        <small class="error-msg me-3"></small>
                     </div>
-                   
                 </div>
             </div>
             <!-- check box -->
             <div class=" pb-2 ps-sm-5 px-md-0 my-5">
                 <h2 class="underline-small sm-heading-blue">
-                      ماذا ستقدم من خلال مادتك؟
+                      الخبرات
                 </h2>
                 <div class="form-group mb-2">
                     <input class="form-check-input mx-2" type="checkbox" value="create-uni"
                         id="create-uni">
                     <label class="form-check-label" for="create-uni">
-                       حل تمارين
+                       العمل في عيادة
                     </label>
                 </div>
                 <div class="form-group mb-2">
                     <input class="form-check-input mx-2" type="checkbox" value="create-uni"
                         id="create-uni">
                     <label class="form-check-label" for="create-uni">
-                        حل أسئلة سابقة
-                    </label>
-                </div>
-                <div class="form-group mb-2">
-                    <input class="form-check-input mx-2" type="checkbox" value="create-uni"
-                        id="create-uni">
-                    <label class="form-check-label" for="create-uni">
-                     أسئلة تفاعلية
-                    </label>
-                </div>
-                <div class="form-group mb-2">
-                    <input class="form-check-input mx-2" type="checkbox" value="create-uni"
-                        id="create-uni">
-                    <label class="form-check-label" for="create-uni">
-                       ملخصات
-                    </label>
-                </div>
-                <div class="form-group mb-2">
-                    <input class="form-check-input mx-2" type="checkbox" value="create-uni"
-                        id="create-uni">
-                    <label class="form-check-label" for="create-uni">
-                       محاضرات تقوية
+                        التدريس او التدريب 
                     </label>
                 </div>
             </div>
-          
-           
-           
-          
-            
-          
+             <!-- Second check box -->
+             <div class=" pb-2 ps-sm-5 px-md-0 my-5">
+                <h2 class="underline-small sm-heading-blue">
+                    البحوث (هل سبق وان قمت؟)
+                </h2>
+                <div class="form-group mb-2">
+                    <input class="form-check-input mx-2" type="checkbox" value="create-uni"
+                        id="create-uni">
+                    <label class="form-check-label" for="create-uni">
+                       كتابة محتوى 
+                    </label>
+                    <input  id="title" type="text" name="title" class="md-blue-input-text pe-4 form-control fieldset-input-thin text-right-important grey-placeholder pr-0" placeholder="اذكرة" />
+                            <small class="error-msg me-3"></small>
+                </div>
+                <div class="form-group mb-2">
+                    <input class="form-check-input mx-2" type="checkbox" value="create-uni"
+                        id="create-uni">
+                    <label class="form-check-label" for="create-uni">
+                        تصميم برامج 
+                    </label>
+                    <input  id="title" type="text" name="title" class="md-blue-input-text pe-4 form-control fieldset-input-thin text-right-important grey-placeholder pr-0" placeholder="اذكرة" />
+                            <small class="error-msg me-3"></small>
+                </div>
+                <div class="form-group mb-2">
+                    <input class="form-check-input mx-2" type="checkbox" value="create-uni"
+                        id="create-uni">
+                    <label class="form-check-label" for="create-uni">
+                        مراجعة برامج
+                    </label>
+                    <input  id="title" type="text" name="title" class="md-blue-input-text pe-4 form-control fieldset-input-thin text-right-important grey-placeholder pr-0" placeholder="اذكرة" />
+                            <small class="error-msg me-3"></small>
+                </div>
+            </div>
+            <!-- Radio botton -->
+            <div class="col-lg-6 mx-1">
+            <div class=" pb-2 ps-sm-5 px-md-0">
+                <h5 class="underline-small sm-heading-blue mt-4">
+                        هل تستطيع توقيع عقد ؟
+                </h5>
+                <div>
+                    <div class="radio-parent form-group">
+
+                        <input  id="op1" type="radio" checked name="side_cover" class=" "  />
+                        <label>نعم</label>
+                    </div>
+                    <div class="radio-parent form-group">
+
+                        <input  id="op2" type="radio" name="side_cover" class=" "  />
+                        <label>لا</label>
+                    </div>
+                </div>
+            </div> 
+
         </div>
         <div class="d-flex justify-content-center gap-5 my-5">
 
@@ -382,6 +416,7 @@
     <!-- </div> -->
 </div>
 </div>
+
 <?php include './template/footer.php' ?>
 <script>
     const next_btn = document.querySelectorAll("#next");
