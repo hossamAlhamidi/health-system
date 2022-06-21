@@ -1,46 +1,46 @@
 {
     "data": [
         {
-            "name": "أحمد محمد",
+            "name": "بسام محمد",
             "address": "ahmed@gmail.com ",
             "city": "موافق",
             "age": "03/27-2pm",
-            "comand": "<button class='btn btn-primary' style='pointer:cursor'>إنشاء عقد</button>"
+            "comand": "<button class='btn btn-primary' style='pointer:cursor'>إنشاء عقد</button> <button class='btn btn-danger'>رفض المترشح</button>"
         },
         {
             "name": "أسامة الغامدي",
             "address": "osama@gmail.com ",
             "city": "موافق",
             "age": "03/27-2pm",
-            "comand": "<button class='btn btn-primary' style='pointer:cursor'>إنشاء عقد</button>"
+            "comand": "<button class='btn btn-primary' style='pointer:cursor'>إنشاء عقد</button> <button class='btn btn-danger'>رفض المترشح</button>"
         },
         {
             "name": "حسام الحميدي",
             "address": "hosam@gmail.com ",
             "city": "موافق",
             "age": "03/27-2pm",
-            "comand": "<button class='btn btn-primary' style='pointer:cursor'>إنشاء عقد</button>"
+            "comand": "<button class='btn btn-primary' style='pointer:cursor'>إنشاء عقد</button> <button class='btn btn-danger'>رفض المترشح</button>"
         },
         {
             "name": "محمد علاء",
             "address": "mohamed@gmail.com ",
             "city": "موافق",
             "age": "03/27-2pm",
-            "comand": "<button class='btn btn-primary' style='pointer:cursor'>إنشاء عقد</button>"
+            "comand": "<button class='btn btn-primary' style='pointer:cursor'>إنشاء عقد</button> <button class='btn btn-danger'>رفض المترشح</button>"
         },
         {
             "name": "مهند ناصر",
             "address": "mohanad@gmail.com ",
             "city": "موافق",
             "age": "03/27-2pm",
-            "comand": "<button class='btn btn-primary' style='pointer:cursor'>إنشاء عقد</button>"
+            "comand": "<button class='btn btn-primary' style='pointer:cursor'>إنشاء عقد</button> <button class='btn btn-danger'>رفض المترشح</button>"
         },
         {
             "name": "عبدالله العنزي",
             "address": "abdulah@gmail.com ",
             "city": "غير موافق",
             "age": "-",
-            "comand": "<button class='btn btn-primary' style='pointer:cursor; display:none' >إنشاء عقد</button>"
+            "comand": "<button class='btn btn-primary' style='pointer:cursor; display:none' >إنشاء عقد</button> <button class='btn btn-danger' style='display:none'>رفض المترشح</button>"
         }
     ]
 
