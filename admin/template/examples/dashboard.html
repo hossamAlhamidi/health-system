@@ -37,6 +37,7 @@
       href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.css"
     />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    
 </head>
 
 <body>
@@ -245,12 +246,23 @@
                             </div>
                     </div>
 
-
+                    <button type="button" class="btn btn-secondary"
+                         data-bs-toggle="tooltip" data-bs-placement="top"
+                        data-bs-custom-class="custom-tooltip"
+                        title="PHP/Master = 15 نقطه/ Medical education certifican = 10 نقاط / Non-Medical education certifican = 5نقاط 
+                        clinical = 10 نقاط / Academic = 5 نقاط 
+                        Articles = 3 نقاط / Books = 3 نقاط / Abstract = 3 نقاط
+                        ">
+                        تعريف النقاط
+                    </button>
+                    </br>
                     <div class="table-responsive">
                         <table id="table_id" class="display">
                             <thead>
                                 <tr class="DT_RowClass">
-                                    <th>الاسم</th>
+
+                                   <th>الاسم</th>
+                                       
                                     <th>المؤهل</th>
                                     <th>الخبرات</th>
                                     <th>البحوث</th>
