@@ -2,7 +2,7 @@
     "data": [
         {
             "name": "أسامة الغامدي",
-            "address": " PhD/Master ",
+            "address": " PhD ",
             "city": "clinical",
             "age": "Articles",
             "last visit": "Yes",
@@ -22,7 +22,7 @@
         },
         {
             "name": "مهند ناصر",
-            "address": "PhD/Master",
+            "address": "Master",
             "city": "Academic",
             "age": "Abstract ",
             "last visit": "NO",
@@ -42,7 +42,7 @@
         },
         {
             "name": "بسام محمد",
-            "address": "PhD/Master",
+            "address": "PhD",
             "city": "clinical",
             "age": "abstract",
             "last visit": "Yes",
@@ -52,7 +52,7 @@
         },
         {
             "name": "عبدالله العنزي",
-            "address": "PhD/Master",
+            "address": "Master",
             "city": "clinical",
             "age": "-",
             "last visit": "NO",
