@@ -6,7 +6,9 @@
             "city": "clinical",
             "age": "Articles",
             "last visit": "Yes",
-            "orders": "5"
+            "orders": "5",
+            "score": "28",
+            "choosing": "<button class='btn btn-primary' style='pointer:cursor'>ترشيح</button>"
         },
         {
             "name": "حسام الحميدي",
@@ -14,7 +16,9 @@
             "city": "Academic  ",
             "age": "books",
             "last visit": "Yes",
-            "orders": "no rating"
+            "orders": "no rating",
+            "score": "18",
+            "choosing": "<button class='btn btn-primary' style='pointer:cursor'>ترشيح</button>"
         },
         {
             "name": "مهند ناصر",
@@ -22,7 +26,9 @@
             "city": "Academic",
             "age": "Abstract ",
             "last visit": "NO",
-            "orders": "no rating"
+            "orders": "no rating",
+            "score": "28",
+            "choosing": "<button class='btn btn-primary' style='pointer:cursor'>ترشيح</button>"
         },
         {
             "name": "محمد علاء",
@@ -30,7 +36,9 @@
             "city": "clinical ",
             "age": "books",
             "last visit": "Yes",
-            "orders": "3"
+            "orders": "3",
+            "score": "23",
+            "choosing": "<button class='btn btn-primary' style='pointer:cursor'>ترشيح</button>"
         },
         {
             "name": "أحمد محمد",
@@ -38,15 +46,19 @@
             "city": "clinical",
             "age": "abstract",
             "last visit": "Yes",
-            "orders": "no rating"
+            "orders": "no rating",
+            "score": "28",
+            "choosing": "<button class='btn btn-primary' style='pointer:cursor'>ترشيح</button>"
         },
         {
             "name": "عبدالله العنزي",
             "address": "PhD/Master",
             "city": "clinical",
-            "age": "Articles",
+            "age": "-",
             "last visit": "NO",
-            "orders": "no ratings"
+            "orders": "no ratings",
+            "score": "25",
+            "choosing": "<button class='btn btn-primary' style='pointer:cursor'>ترشيح</button>"
         }
     ]
 }
