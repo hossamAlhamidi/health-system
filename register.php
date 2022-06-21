@@ -389,12 +389,12 @@
                     <div class="radio-parent form-group">
 
                         <input  id="op1" type="radio" checked name="side_cover" class=" "  />
-                        <label>نعم</label>
+                        <label>نعم (دوام جزئي)</label>
                     </div>
                     <div class="radio-parent form-group">
 
                         <input  id="op2" type="radio" name="side_cover" class=" "  />
-                        <label>لا</label>
+                        <label>لا (نظام ساعات)</label>
                     </div>
                 </div>
             </div> 

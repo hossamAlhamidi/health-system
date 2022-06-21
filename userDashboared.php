@@ -31,7 +31,7 @@
                         <td>1</td>
                         <td>34568</td>
                         <td>تم الترشيح</td>
-                        <td>...</td>
+                        <td>تم دعوتك للمشاركة في برنامج الامن الصحي</td>
                         <td class="d-flex justify-content-end">
                             <!-- <button class="btn btn-primary mx-3 ">اختيار موعد</button> -->
                      <button type="button" class="btn btn-primary mx-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -125,14 +125,14 @@
                 <td>34568</td>
                 <td> الأمن الصحي</td>
                 <td>دوام جزئي</td>
-                <td>منتهي</td>
+                <td>تحت التدقيق</td>
                 <td class="">
                     <a class="btn btn-primary mx-3 ">تحميل العقد </a>
                     <input type="file" class="" style="display:inline-block;"/>
                 </td>
             </tr>
 
-            <tr>
+            <!-- <tr>
                 <td>1</td>
                 <td>34568</td>
                 <td> الأمن الصحي</td>
@@ -178,7 +178,7 @@
                     <a class="btn btn-primary mx-3 ">تحميل العقد </a>
                     <input type="file" class="" style="display:inline-block;"/>
                 </td>
-            </tr>
+            </tr> -->
         </tbody>
     </table>
 </div>
