@@ -41,12 +41,12 @@
             "choosing": "<button class='btn btn-primary' style='pointer:cursor'>ترشيح</button>"
         },
         {
-            "name": "أحمد محمد",
-            "address": "Phd",
+            "name": "بسام محمد",
+            "address": "PhD/Master",
             "city": "clinical",
             "age": "abstract",
             "last visit": "Yes",
-            "orders": "no rating",
+            "orders": "1",
             "score": "28",
             "choosing": "<button class='btn btn-primary' style='pointer:cursor'>ترشيح</button>"
         },
