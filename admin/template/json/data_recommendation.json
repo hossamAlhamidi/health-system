@@ -7,7 +7,7 @@
             "age": "Articles",
             "last visit": "Yes",
             "orders": "5",
-            "score": "28",
+            "score": "4",
             "choosing": "<button class='btn btn-primary' style='pointer:cursor'>ترشيح</button>"
         },
         {
@@ -17,7 +17,7 @@
             "age": "books",
             "last visit": "Yes",
             "orders": "3",
-            "score": "23",
+            "score": "3",
             "choosing": "<button class='btn btn-primary' style='pointer:cursor'>ترشيح</button>"
         },
         {
@@ -27,8 +27,8 @@
             "age": "abstract",
             "last visit": "Yes",
             "orders": "1",
-            "score": "28",
-            "choosing": "<button class='btn btn-primary' style='pointer:cursor'>ترشيح</button>"
+            "score": "2",
+            "choosing": "<button class='btn btn-primary' style='pointer:cursor'disabled>ترشيح</button>"
         }
     ]
 }
