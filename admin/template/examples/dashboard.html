@@ -36,6 +36,7 @@
       type="text/css"
       href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.css"
     />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
 </head>
 
 <body>
@@ -83,6 +84,19 @@
                             <p>RatingBoared </p>
                         </a>
                     </li>
+                    <li>
+                        <a class="nav-link" href="./RatingBoared.html">
+                            <i class="nc-icon nc-notes"></i>
+                            <p>RatingBoared </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="./Recommendation.html">
+                            <i class="nc-icon nc-notes"></i>
+                            <p>Recommendation </p>
+                        </a>
+                    </li>
+
                     <li>
                         <a class="nav-link" href="./table.html">
                             <i class="nc-icon nc-notes"></i>
@@ -197,6 +211,38 @@
                                 </div>
                             </div>
                         </div>
+                                <div class="col-md-6">
+                                    <div class="card ">
+                                    <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+        
+                                        <script>
+                                        var xValues = ["نعم", "لا",];
+                                        var yValues = [2, 4];
+                                        var barColors = [
+                                        "#b91d47",
+                                        "#00aba9",
+        
+                                        ];
+        
+                                        new Chart("myChart", {
+                                        type: "doughnut",
+                                        data: {
+                                            labels: xValues,
+                                            datasets: [{
+                                            backgroundColor: barColors,
+                                            data: yValues
+                                            }]
+                                        },
+                                        options: {
+                                            title: {
+                                            display: true,
+                                            text: "يبين الرسم الاشخاص اللذين وافقو على العقد او لا"
+                                            }
+                                        }
+                                        });
+                                        </script>
+                                </div>
+                            </div>
                     </div>
 
 
