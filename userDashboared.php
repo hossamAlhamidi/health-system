@@ -41,7 +41,7 @@
                             <button class="btn btn-danger ">رفض </button>
                         </td>
                     </tr>
-                    <tr>
+                    <!-- <tr>
                         <td>1</td>
                         <td>34568</td>
                         <td>تم الترشيح</td>
@@ -91,7 +91,7 @@
                     </button>
                             <button class="btn btn-danger ">رفض </button>
                         </td>
-                    </tr>
+                    </tr> -->
                 </tbody>
             </table>
         </div>
