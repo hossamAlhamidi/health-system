@@ -6,6 +6,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.2.0/dist/css/datepicker-bulma.min.css">
+<!-- or -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.2.0/dist/css/datepicker-bs5.min.css">
+<!-- or -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.2.0/dist/css/datepicker-bs4.min.css">
+<!-- or -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.2.0/dist/css/datepicker-foundation.min.css">
     <!-- CSS only -->
     <link rel="stylesheet" href='main.css'>
     <link rel="stylesheet" href='form.css'>
@@ -31,9 +39,13 @@
         <a class="nav-link text-light" href="#footer">اتصل بنا</a>
       </div>
       <div class="navbar-nav me-auto">
+        <?php if(isset($_SESSION['logged_in'])){ ?>
       <a href="userDashboared.php" class="btn btn-primary mx-3">طلباتي </a>
+      <?php } 
+      else {
+      ?>
         <a href="signin.php" class="btn btn-primary">تسجيل الدخول</a>
-      
+      <?php }?>
             
        
                   

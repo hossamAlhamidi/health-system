@@ -8,7 +8,9 @@
           مرحبا بك في المنصة التعليمية الخاصة بالأكاديمية الصحية
         </h2>
     </div>
+    <?php if(!isset($_SESSION['logged_in'])){ ?>
     <a class="btn btn-primary my-3" href="register.php">سجل معنا </a>
+    <?php }?>
 </header>
 
 <section id="us">

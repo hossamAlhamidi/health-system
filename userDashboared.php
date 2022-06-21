@@ -11,7 +11,8 @@
 <div class="tab-content" id="nav-tabContent">
   <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
     <div class="container my-5">
-
+        
+  
         <div class="row">
         <div class="col-md-8 mx-auto">
         <div class="table-responsive">
@@ -32,7 +33,11 @@
                         <td>تم الترشيح</td>
                         <td>...</td>
                         <td class="d-flex justify-content-end">
-                            <button class="btn btn-primary mx-3 ">اختيار موعد</button>
+                            <!-- <button class="btn btn-primary mx-3 ">اختيار موعد</button> -->
+                     <button type="button" class="btn btn-primary mx-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    اختيار موعد
+                    </button>
+
                             <button class="btn btn-danger ">رفض </button>
                         </td>
                     </tr>
@@ -42,7 +47,9 @@
                         <td>تم الترشيح</td>
                         <td>...</td>
                         <td class="d-flex justify-content-end">
-                            <button class="btn btn-primary mx-3 ">اختيار موعد</button>
+                        <button type="button" class="btn btn-primary mx-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    اختيار موعد
+                    </button>
                             <button class="btn btn-danger ">رفض </button>
                         </td>
 
@@ -53,7 +60,9 @@
                         <td>تم الترشيح</td>
                         <td>...</td>
                         <td class="d-flex justify-content-end">
-                            <button class="btn btn-primary mx-3 ">اختيار موعد</button>
+                        <button type="button" class="btn btn-primary mx-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    اختيار موعد
+                    </button>
                             <button class="btn btn-danger ">رفض </button>
                         </td>
                     </tr>
@@ -64,7 +73,9 @@
                         <td>تم الترشيح</td>
                         <td>...</td>
                         <td class="d-flex justify-content-end">
-                            <button class="btn btn-primary mx-3 ">اختيار موعد</button>
+                        <button type="button" class="btn btn-primary mx-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    اختيار موعد
+                    </button>
                             <button class="btn btn-danger ">رفض </button>
                         </td>
                     </tr>
@@ -75,7 +86,9 @@
                         <td>تم الترشيح</td>
                         <td>...</td>
                         <td class="d-flex justify-content-end">
-                            <button class="btn btn-primary mx-3 ">اختيار موعد</button>
+                        <button type="button" class="btn btn-primary mx-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    اختيار موعد
+                    </button>
                             <button class="btn btn-danger ">رفض </button>
                         </td>
                     </tr>
@@ -171,8 +184,29 @@
 </div>
 </div>
 </div>
+
 </div>
 
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content" style="min-height:500px">
+      <!-- <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div> -->
+      <div class="modal-body">
+      <div class="input-group mb-4">
+ 
+  <input type="text" class="datepicker_input form-control" placeholder="الموعد" required aria-label="فضلا حدد موعدك">
+</div>
+      </div>
+      <div class="modal-footer justify-content-start">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">حفظ</button>
+        <!-- <button dir="rtl" type="button" class="btn btn-primary">حفظ </button> -->
+      </div>
+    </div>
+  </div>
+</div>
 
   </div>
   <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">3</div>
@@ -180,3 +214,32 @@
 </div>
 
 <?php include './template/footer.php' ?>
+
+<script>
+    /* Bootstrap 5 JS included */
+/* vanillajs-datepicker 1.1.4 JS included */
+
+const getDatePickerTitle = elem => {
+  // From the label or the aria-label
+  const label = elem.nextElementSibling;
+  let titleText = '';
+  if (label && label.tagName === 'LABEL') {
+    titleText = label.textContent;
+  } else {
+    titleText = elem.getAttribute('aria-label') || '';
+  }
+  return titleText;
+}
+
+const elems = document.querySelectorAll('.datepicker_input');
+for (const elem of elems) {
+  const datepicker = new Datepicker(elem, {
+    'format': 'dd/mm/yyyy', // UK format
+    title: getDatePickerTitle(elem)
+  });
+}
+
+
+     document.querySelector(".next-btn").classList.remove('next-btn')
+
+</script>
