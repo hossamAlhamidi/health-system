@@ -403,8 +403,8 @@
         <div class="d-flex justify-content-center gap-5 my-5">
 
             <button id="prev" type="button" class="btn sky-blu-btn btn-h-3-mb-3 text-center mb-5 btn-form-three">السابق</button>
-            <button  data-bs-toggle="modal"
-         data-bs-target="#confirmMsg" id="btn-addition" type="button" class="btn sky-blu-btn btn-h-3-mb-3 text-center mb-5 btn-form-three">اضافة</button>
+            <button id="sub" data-bs-toggle="modal"
+         data-bs-target="#confirmMsg" id="btn-addition" type="button" class="btn sky-blu-btn btn-h-3-mb-3 text-center mb-5 btn-form-three">تسجيل</button>
         </div>
         </div>
 
@@ -419,6 +419,9 @@
 
 <?php include './template/footer.php' ?>
 <script>
+    document.querySelector("#sub").addEventListener("click",()=>{
+        location.href="index.php";
+    })
     const next_btn = document.querySelectorAll("#next");
 const prev_btn = document.querySelectorAll("#prev");
 const progress_line = document.querySelector("#progress")

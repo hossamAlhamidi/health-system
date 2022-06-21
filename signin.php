@@ -3,6 +3,7 @@
 
 if($_SERVER['REQUEST_METHOD']=="POST"){
    $_SESSION['logged_in']=true;
+   header("location:index.php");
 }
 ?>
 
@@ -105,7 +106,7 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
 
               <p class="small mb-5 pb-lg-2"><a class="text-white-50" href="#!">هل نسيت كلمة السر؟</a></p>
 
-              <a class="btn btn-outline-light btn-lg px-5" type="submit" href="index.php">تسجيل الدخول</a>
+              <button class="btn btn-outline-light btn-lg px-5" type="submit" >تسجيل الدخول</button>
 
               <!-- <div class="d-flex justify-content-center text-center mt-4 pt-1">
                 <a href="#!" class="text-white"><i class="fab fa-facebook-f fa-lg"></i></a>

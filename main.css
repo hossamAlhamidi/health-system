@@ -94,9 +94,9 @@ ul{
 	background-color: #ffffff;
 }
 
-#order-status{
-  border: 2px solid black;
-}
+/* #order-status{
+  border: 2px solid #f3f3f3;
+} */
 
 /*responsive*/
 @media(max-width: 767px){
