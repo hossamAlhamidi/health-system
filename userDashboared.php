@@ -112,7 +112,7 @@
                 <td>34568</td>
                 <td> الأمن الصحي</td>
                 <td>دوام جزئي</td>
-                <td>-</td>
+                <td>منتهي</td>
                 <td class="">
                     <a class="btn btn-primary mx-3 ">تحميل العقد </a>
                     <input type="file" class="" style="display:inline-block;"/>
@@ -124,7 +124,7 @@
                 <td>34568</td>
                 <td> الأمن الصحي</td>
                 <td>دوام جزئي</td>
-                <td>-</td>
+                <td>مستمر</td>
                 <td class="">
                     <a class="btn btn-primary mx-3 ">تحميل العقد </a>
                     <input type="file" class="" style="display:inline-block;"/>
@@ -136,7 +136,7 @@
                 <td>34568</td>
                 <td> الأمن الصحي</td>
                 <td>دوام جزئي</td>
-                <td>-</td>
+                <td>تحت التدقيق</td>
                 <td class="">
                     <a class="btn btn-primary mx-3 ">تحميل العقد </a>
                     <input type="file" class="" style="display:inline-block;"/>
