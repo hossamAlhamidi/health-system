@@ -39,8 +39,9 @@
         <a class="nav-link text-light" href="#footer">اتصل بنا</a>
       </div>
       <div class="navbar-nav me-auto">
-        <?php if(isset($_SESSION['logged_in'])){ ?>
+        <?php if(isset($_SESSION['logged_in'] ) && $_SESSION['logged_in']){ ?>
       <a href="userDashboared.php" class="btn btn-primary mx-3">طلباتي </a>
+      <a href="logout.php" class="btn btn-danger ">تسجيل خروج </a>
       <?php } 
       else {
       ?>
