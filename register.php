@@ -8,7 +8,7 @@
         
         <!-- <h2 class="underline-small sm-heading-blue">اضافة مادة</h2> -->
         <!-- progressbar -->
-        <div class="progressbar mb-5" >
+        <div class="progressbar my-5" >
             <div class="progress" id="progress"></div>
          <div class="progress-step  progress-step-active" data-title=" المعلومات الشخصية">1</div>
          <div class="progress-step" data-title="تأكيد رقم الجوال ">2</div>
@@ -413,7 +413,7 @@
          
 
        <!-- end of column -->
-    <!-- </div> -->
+    </div>
 </div>
 </div>
 

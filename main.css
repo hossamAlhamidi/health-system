@@ -94,6 +94,10 @@ ul{
 	background-color: #ffffff;
 }
 
+#order-status{
+  border: 2px solid black;
+}
+
 /*responsive*/
 @media(max-width: 767px){
   .footer-colS{
